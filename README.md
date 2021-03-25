@@ -7,6 +7,7 @@
 ```
 $ rails new my-rails-app --database=postgresql
 $ cd my-rails-app
+$ rails db:create
 
 $ git add .
 $ git commit -m "rails new"
@@ -29,7 +30,30 @@ Github Actions will build a test environment and run unit/system tests on every 
 TODO
 
 ### Unit tests
-TODO
+Write unit tests with RSpec to test your models.
+
+As an example lets build the model `Tree`
+```
+$ rails g model Tree age:integer # automatically creates spec/models/tree_spec.rb
+$ rails db:migrate
+```
+
+Lets write a simple test for creating a `Tree` instance and its `age` accessor. In `spec/models/tree_spec.rb` write
+
+```ruby
+require 'rails_helper'
+
+describe Tree, type: :model do
+  it 'creates a Tree instance with an age' do
+    tree = Tree.new(age: 13)
+    expect(tree.age).to eq(13)
+  end
+end
+```
+
+
+
+
 
 ### System tests
 TODO
