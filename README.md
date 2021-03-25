@@ -25,11 +25,11 @@ Github Actions will build a test environment and run unit/system tests on every 
 3. Optional - Make passing all tests mandatory in order to merge code into master: In your repo go to `Settings/Branches` and `Add rule` and activate `Require status checks to pass before merging` as well as your `test`.
 
 
-### Write Tests
+## Usage
 TODO
 
-#### Unit tests
+### Unit tests
 TODO
 
-#### System tests
+### System tests
 TODO
