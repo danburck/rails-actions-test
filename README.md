@@ -54,7 +54,7 @@ end
 ```
 
 Make Debugging easier by adding `config/environments/test.rb`
-```
+```ruby
 Rails.application.configure do
   # [ ... ]
   config.action_dispatch.show_exceptions = true # Update this line
