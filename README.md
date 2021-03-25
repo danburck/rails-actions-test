@@ -16,7 +16,17 @@ $ git push origin master
 ```
 
 ### Configure RSpec for Unit tests
- Follow the rspec documentation to add and install the rspec gem [rspec/rspec-rails](https://github.com/rspec/rspec-rails)
+Follow the rspec documentation to add and install the rspec gem [rspec/rspec-rails](https://github.com/rspec/rspec-rails)
+```
+# Run against this stable release
+group :development, :test do
+  gem 'rspec-rails', '~> 5.0.0'
+end
+
+$ bundle install
+$ rails generate rspec:install
+```
+ 
  
 ### Configure MiniTest for System tests
 Install the launchy gem
