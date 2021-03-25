@@ -35,10 +35,6 @@ In `test/test_helper.rb` include `devise warden` (for testing applications with 
 ```ruby
 class ActiveSupport::TestCase
   # [...]
-
-  # Devise test helpers (Login action)
-  include Warden::Test::Helpers
-  Warden.test_mode!
 end
 
 Capybara.register_driver :headless_chrome do |app|
