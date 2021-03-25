@@ -48,6 +48,15 @@ Capybara.javascript_driver = :headless_chrome
 
 Set up Browser tests in `test/application_system_test_case.rb`
 ```ruby
+require "test_helper"
+
+# Make sure drivers dont fail under parallel testing
+Webdrivers::Chromedriver.update
+
+class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
+  driven_by :headless_chrome
+end
+
 class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
   driven_by :headless_chrome # Update this line
 end
