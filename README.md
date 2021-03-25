@@ -1,4 +1,4 @@
-# rails-test-pipeline
+# rails-test-pipeline [![Build Status](https://github.com/rspec/rspec-core/workflows/RSpec%20CI/badge.svg)](https://github.com/danburck/rails-test-pipeline/actions)
 
 `rails-test-pipeline` provides a structure for setting up automated tests using RSpec and Minitest for rails on github.
 
