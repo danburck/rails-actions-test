@@ -106,7 +106,7 @@ Lets take our `Tree` example from above and create a new system test
 $ rails g system_test tree
 ```
 
-System tests require an own environment that has a different database than local and production database. Therefore we set up a testing database called `fixtures`. We can quickly write them in yml in `test/fixtures/tree.yml`:
+System tests require an own environment that has a different database than local and production database. Therefore we set up a testing database called `fixtures`. We can quickly write them in yml in `test/fixtures/trees.yml`:
 ```yml
 apple_tree:
   age: 13
