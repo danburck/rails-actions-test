@@ -1,9 +1,9 @@
 # rails-test-pipeline [![Build Status](https://github.com/rspec/rspec-core/workflows/RSpec%20CI/badge.svg)](https://github.com/danburck/rails-test-pipeline/actions)
 
-`rails-test-pipeline` provides a structure for setting up automated tests using RSpec and MiniTest (included in Rails by default) for rails on github.
+`rails-test-pipeline` provides a structure for setting up automated tests using RSpec and MiniTest for rails on github.
 
 ## Install
-### Set up rails app with postgres
+### Set up rails app with postgres database
 ```
 $ rails new my-rails-app --database=postgresql
 $ cd my-rails-app
@@ -108,7 +108,7 @@ Learn more about Rspec [here](https://github.com/rspec/rspec-core).
 
 
 ### System tests
-Use System/Integration tests to imitate the core user journey. Keep the amount of system tests low as they are very time costly. 
+Use System/Integration tests to imitate the core user journey. We are using MiniTest which is included in Rails by default. Keep the amount of system tests low as they are very time costly. We are 
 
 Lets take our `Tree` example from above and create a new system test
 ```
