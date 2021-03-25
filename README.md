@@ -1,12 +1,6 @@
-# setup-rails-test-pipeline
+# rails-test-pipeline
 
-setup-rails-test-pipeline provides a structure for setting up a test pipeline for rails on github.
-
-## Specs
-* Rails
-* Uses RSpec
-* Ruby Version
-
+`rails-test-pipeline` provides a structure for setting up automated tests using RSpec and Minitest for rails on github.
 
 ## Install
 ### Set up rails app with postgres
@@ -31,34 +25,10 @@ Github Actions will build a test environment and run unit/system tests on every 
 
 
 ### Write Tests
+TODO
 
 #### Unit tests
+TODO
 
 #### System tests
-
-
-
-
-
-
-
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+TODO
