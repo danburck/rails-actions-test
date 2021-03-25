@@ -1,6 +1,6 @@
 # rails-test-pipeline [![Build Status](https://github.com/rspec/rspec-core/workflows/RSpec%20CI/badge.svg)](https://github.com/danburck/rails-test-pipeline/actions)
 
-`rails-test-pipeline` provides a structure for setting up automated tests using RSpec and Minitest (included in Rails by default) for rails on github.
+`rails-test-pipeline` provides a structure for setting up automated tests using RSpec and MiniTest (included in Rails by default) for rails on github.
 
 ## Install
 ### Set up rails app with postgres
@@ -18,7 +18,7 @@ $ git push origin master
 ### Configure RSpec for Unit tests
  Follow the rspec documentation to add and install the rspec gem [rspec/rspec-rails](https://github.com/rspec/rspec-rails)
  
-### Configure Minitest for System tests
+### Configure MiniTest for System tests
 Install the launchy gem
 In Gemfile
 ```
@@ -144,5 +144,4 @@ Here is an exmaple of what the test is looking for in the `trees_path`:
 ```
 
 
-
-Learn more about Minitests [here](TODO)
+Learn more about Minitests [here](https://www.rubydoc.info/gems/minitest/2.3.1/MiniTest/Assertions)
