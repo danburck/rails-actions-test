@@ -31,7 +31,7 @@ end
 $ bundle install
 ```
 
-In `test/test_helper.rb` include `devise warden` (for testing applications with login functionality) and `capybara headless chrome` for imitating user behaviour without opening a browser. 
+In `test/test_helper.rb` include and `capybara headless chrome` for imitating user behaviour without opening a browser. There are several additional helpers like e.g. `devise warden` (for testing applications with login functionality), which you might add later.
 ```ruby
 class ActiveSupport::TestCase
   # [...]
