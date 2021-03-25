@@ -87,7 +87,7 @@ Github Actions will build a test environment and run unit/system tests on every 
 
 
 ## Usage
-The Github Action will automatically run unit tests with `$ bundle exec rspec` and system tests with `$ rails test:system`. Lets write some tests. 
+The Github Action will automatically run unit tests with `$ bundle exec rspec` and system tests with `$ bundle exec rails test:system`. Lets write some tests. 
 
 ### Unit tests
 Write unit tests with RSpec to test your models.
