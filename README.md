@@ -109,9 +109,9 @@ $ rails g system_test tree
 System tests require an own environment that has a different database than local and production database. Therefore we set up a testing database called `fixtures`. We can quickly write them in yml in `test/fixtures/tree.yml`:
 ```yml
 apple_tree:
-  age: "13"
+  age: 13
 pear_tree:
-  age:10
+  age: 10
 ```
 
 Write a test in `test/system/products_test.rb` to test the display of a tree's age in the trees_path
