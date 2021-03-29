@@ -111,7 +111,8 @@ describe Tree, type: :model do
   end
 end
 ```
-Learn more about Rspec [here](https://github.com/rspec/rspec-core).
+Learn more about [Rspec](https://github.com/rspec/rspec-core).
+Learn more about [how to write good tests](https://remimercier.com/rspec-fundamentals-glossary/)
 
 
 ### System tests
